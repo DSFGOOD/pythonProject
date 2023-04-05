@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 import sklearn
 bc_data = pd.read_csv(r'D:\bc_data.csv',header=0)
-# print(bc_data.head(5))
+# print(bc_data.head(5))·
 print(bc_data.describe())
 data =bc_data.drop(['id'],axis=1)
 print(data.head())
